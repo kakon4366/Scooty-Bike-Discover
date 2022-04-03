@@ -1,22 +1,26 @@
 import React from "react";
+import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
 	return (
 		<header>
 			<div className="container mx-auto">
-				<nav className="text-center py-6">
-					<a className="text-2xl mr-8" href="/">
+				<nav className="text-center py-6 flex items-center justify-center">
+					<CustomLink className="text-2xl mr-8" to="/">
 						Home
-					</a>
-					<a className="text-2xl mr-8" href="/review">
+					</CustomLink>
+					<CustomLink
+						className="text-2xl mr-8 underline pb-2"
+						to="/review"
+					>
 						Review
-					</a>
-					<a className="text-2xl mr-8" href="/dashboard">
+					</CustomLink>
+					<CustomLink className="text-2xl mr-8" to="/dashboard">
 						Dashboard
-					</a>
-					<a className="text-2xl mr-8" href="/contact">
+					</CustomLink>
+					<CustomLink className="text-2xl mr-8" to="/contact">
 						Contact Us
-					</a>
+					</CustomLink>
 				</nav>
 			</div>
 		</header>
