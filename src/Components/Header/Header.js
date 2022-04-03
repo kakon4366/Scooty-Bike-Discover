@@ -3,7 +3,7 @@ import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
 	return (
-		<header>
+		<header className="bg-[#FFF8F3]">
 			<div className="container mx-auto">
 				<nav className="text-center py-6 flex items-center justify-center">
 					<CustomLink className="text-2xl mr-8" to="/">
