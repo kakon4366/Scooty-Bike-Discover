@@ -12,8 +12,8 @@ const Home = () => {
 		<section>
 			<div className="bg-[#cbebe7] py-24">
 				<div className="container mx-auto">
-					<div className="grid grid-cols-2 gap-4">
-						<div>
+					<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+						<div className="order-last md:order-first">
 							<h1 className="text-6xl lg:text-8xl">
 								Scooty Bike Discover
 							</h1>
@@ -38,7 +38,7 @@ const Home = () => {
 				<h3 className="text-center text-3xl font-semibold">
 					Customar Reviews (3)
 				</h3>
-				<div className="flex justify-center py-12 container mx-auto gap-8">
+				<div className="w-[90%] md:flex justify-center py-12 container mx-auto gap-8">
 					{reviews.slice(0, 3).map((review) => (
 						<CustomarReview
 							key={review._id}

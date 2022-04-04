@@ -3,7 +3,7 @@ import React from "react";
 const CustomarReview = (props) => {
 	const { name, email, image, review } = props.review;
 	return (
-		<div className="border border-slate-400 p-3 text-center ">
+		<div className="border my-6 border-slate-400 p-3 text-center ">
 			<div className="w-[200px] overflow-hidden mx-auto mb-2">
 				<img className="rounded" src={image} alt="" />
 			</div>
