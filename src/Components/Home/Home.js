@@ -1,13 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import useReview from "../../Hooks/useReview";
 import ScootyPhoto from "../../images/scooty.png";
 import CustomarReview from "../CustomarReview/CustomarReview";
 
 const Home = () => {
 	const [reviews, setReviews] = useReview([]);
+	const navigate = useNavigate();
 	return (
 		<section>
-			<div className="bg-[#A3E4DB] py-24">
+			<div className="bg-[#cbebe7] py-24">
 				<div className="container mx-auto">
 					<div className="grid grid-cols-2 gap-4">
 						<div>
@@ -41,7 +43,10 @@ const Home = () => {
 					))}
 				</div>
 				<div className="text-center">
-					<button className="bg-[#1C6DD0] py-1 px-12 rounded text-white">
+					<button
+						onClick={() => navigate("/review")}
+						className="bg-[#1C6DD0] py-1 px-12 rounded text-white"
+					>
 						See All Reviews
 					</button>
 				</div>
