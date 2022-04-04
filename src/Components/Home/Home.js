@@ -8,6 +8,8 @@ import { ArrowRightIcon } from "@heroicons/react/solid";
 const Home = () => {
 	const [reviews] = useReview([]);
 	const navigate = useNavigate();
+	const customarReview = reviews.slice(0, 3);
+
 	return (
 		<section>
 			<div className="bg-[#cbebe7] py-24">
@@ -36,10 +38,10 @@ const Home = () => {
 			{/* customar review part */}
 			<div className="my-24">
 				<h3 className="text-center text-3xl font-semibold">
-					Customar Reviews (3)
+					Customar Reviews ({customarReview.length})
 				</h3>
 				<div className="w-[90%] md:flex justify-center py-12 container mx-auto gap-8">
-					{reviews.slice(0, 3).map((review) => (
+					{customarReview.map((review) => (
 						<CustomarReview
 							key={review._id}
 							review={review}

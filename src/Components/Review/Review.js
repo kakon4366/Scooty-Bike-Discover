@@ -6,8 +6,11 @@ const Review = () => {
 	const [reviews, setReviews] = useReview([]);
 
 	return (
-		<div className="container mx-auto">
-			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 py-20">
+		<div className="container mx-auto py-20">
+			<h3 className="text-center text-3xl font-semibold mb-6">
+				Customar Reviews ({reviews.length})
+			</h3>
+			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
 				{reviews.map((review) => (
 					<CustomarReview
 						key={review._id}
