@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import useReview from "../../Hooks/useReview";
 import ScootyPhoto from "../../images/scooty.png";
 import CustomarReview from "../CustomarReview/CustomarReview";
+import { ArrowRightIcon } from "@heroicons/react/solid";
 
 const Home = () => {
 	const [reviews, setReviews] = useReview([]);
@@ -37,17 +38,21 @@ const Home = () => {
 				<h3 className="text-center text-3xl font-semibold">
 					Customar Reviews (3)
 				</h3>
-				<div className="grid grid-cols-3 gap-6 py-12 container mx-auto">
+				<div className="flex justify-center py-12 container mx-auto gap-8">
 					{reviews.slice(0, 3).map((review) => (
-						<CustomarReview review={review}></CustomarReview>
+						<CustomarReview
+							key={review._id}
+							review={review}
+						></CustomarReview>
 					))}
 				</div>
-				<div className="text-center">
+				<div className="flex justify-center">
 					<button
 						onClick={() => navigate("/review")}
-						className="bg-[#1C6DD0] py-1 px-12 rounded text-white"
+						className="bg-[#1C6DD0] flex items-center justify-center py-1 px-12 rounded text-white"
 					>
-						See All Reviews
+						<span>See All Reviews</span>
+						<ArrowRightIcon className="w-4 mt-1"></ArrowRightIcon>
 					</button>
 				</div>
 			</div>

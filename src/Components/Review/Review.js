@@ -7,7 +7,7 @@ const Review = () => {
 
 	return (
 		<div className="container mx-auto">
-			<div className="grid grid-cols-3 gap-6 py-20">
+			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 py-20">
 				{reviews.map((review) => (
 					<CustomarReview
 						key={review._id}
