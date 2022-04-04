@@ -20,10 +20,13 @@ const Home = () => {
 								Scooty Bike Discover
 							</h1>
 							<p className="text-justify my-4">
-								Lorem ipsum, dolor sit amet consectetur adipisicing
-								elit. Fugit laborum nihil quidem tempora commodi, eos
-								labore porro sunt minima deleniti numquam exercitationem
-								quia, modi a facere! Possimus cumque unde itaque!
+								Scooty is a cheap bike. Which is very easy and
+								comfortable to operate. Discover has found an
+								improvement among all these scooters belonging to
+								different companies. It is much more fuel efficient. The
+								color or style of these stutters is standard. There is a
+								lot of demand for this scooter bike in the world market.
+								So I think this scooter bike will be the best for you.
 							</p>
 							<button className="border text-white bg-[#1C6DD0] py-2 px-8 rounded">
 								Learn More
