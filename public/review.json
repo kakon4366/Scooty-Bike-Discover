@@ -1,0 +1,98 @@
+[
+    {
+      "_id": "624a7184e710a46623c7f5a6",
+      "name": "Janie Pennington",
+      "image": "https://img.freepik.com/free-photo/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-129417.jpg?size=626&ext=jpg&ga=GA1.2.1179171109.1649002917",
+      "email": "janiepennington@cujo.com",
+      "phone": "+1 (938) 584-2487",
+      "review": "4.2"
+    },
+    {
+      "_id": "624a7184edcc4574e4b1dccc",
+      "name": "Mcgee Giles",
+      "image": "https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?size=626&ext=jpg&ga=GA1.2.1179171109.1649002917",
+      "email": "mcgeegiles@cujo.com",
+      "phone": "+1 (850) 532-2959",
+      "review": "4.5"
+    },
+    {
+      "_id": "624a71848ecf6c5c05cb7da7",
+      "name": "Carroll Travis",
+      "image": "https://img.freepik.com/free-photo/photo-as-passport-young-man-with-stylish-haircut_295783-869.jpg?size=626&ext=jpg&ga=GA1.2.1179171109.1649002917",
+      "email": "carrolltravis@cujo.com",
+      "phone": "+1 (897) 544-3255",
+      "review": "5"
+    },
+    {
+      "_id": "624a718437b3a6ec19d87083",
+      "name": "Holly Barrera",
+      "image": "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?size=626&ext=jpg&ga=GA1.1.1179171109.1649002917",
+      "email": "hollybarrera@cujo.com",
+      "phone": "+1 (835) 519-2437",
+      "review": "3.5"
+    },
+    {
+      "_id": "624a71844d1f69fd17be1052",
+      "name": "Ortega Martin",
+      "image": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?size=626&ext=jpg&ga=GA1.1.1179171109.1649002917",
+      "email": "ortegamartin@cujo.com",
+      "phone": "+1 (875) 456-3709",
+      "review": "4.5"
+    },
+    {
+      "_id": "624a71841c075bb43c7f9e24",
+      "name": "Wynn Hale",
+      "image": "https://img.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_176532-10257.jpg?size=626&ext=jpg&ga=GA1.2.1179171109.1649002917",
+      "email": "wynnhale@cujo.com",
+      "phone": "+1 (878) 540-2020",
+      "review": "5"
+    },
+    {
+      "_id": "624a718447dd3dd5adb53ddc",
+      "name": "Aida Nolan",
+      "image": "https://img.freepik.com/free-photo/picture-young-pretty-woman-model-standing-posing-high-quality-photo_2831-9758.jpg?size=626&ext=jpg&ga=GA1.1.1179171109.1649002917",
+      "email": "aidanolan@cujo.com",
+      "phone": "+1 (845) 442-2112",
+      "review": "4"
+    },
+    {
+      "_id": "624a7184fb4fdacae5efdc61",
+      "name": "Tracey Love",
+      "image": "https://img.freepik.com/free-photo/satisfied-lovely-woman-holds-modern-cell-phone_273609-28232.jpg?size=626&ext=jpg&ga=GA1.1.1179171109.1649002917",
+      "email": "traceylove@cujo.com",
+      "phone": "+1 (817) 475-2897",
+      "review": "3.5"
+    },
+    {
+      "_id": "624a718409318dcb6d4c3126",
+      "name": "Lloyd Hansen",
+      "image": "https://img.freepik.com/free-photo/photo-young-woman-with-beauty-long-curly-hair-fashion-model-posing-studio_186202-7114.jpg?size=626&ext=jpg&ga=GA1.2.1179171109.1649002917",
+      "email": "lloydhansen@cujo.com",
+      "phone": "+1 (846) 492-2576",
+      "review": "5"
+    },
+    {
+      "_id": "624a71848e1f654787eb4e1d",
+      "name": "Lorna Burke",
+      "image": "https://img.freepik.com/free-photo/portrait-girl-with-messy-bun-glasses-standing-posing-high-quality-photo_2831-10361.jpg?size=626&ext=jpg&ga=GA1.2.1179171109.1649002917",
+      "email": "lornaburke@cujo.com",
+      "phone": "+1 (928) 507-3187",
+      "review": "5"
+    },
+    {
+      "_id": "624a7184c2bd7f64dd342617",
+      "name": "Wall Harper",
+      "image": "https://img.freepik.com/free-photo/photo-indoors-tanned-lady-with-blue-manicure-girl-with-wavy-shiny-hair-posing-profile_197531-10084.jpg?size=626&ext=jpg&ga=GA1.2.1179171109.1649002917",
+      "email": "wallharper@cujo.com",
+      "phone": "+1 (984) 579-3229",
+      "review": "4.4"
+    },
+    {
+      "_id": "624a7184b5121c2e1211483a",
+      "name": "Daisy Benjamin",
+      "image": "https://img.freepik.com/free-photo/caucasion-woman-casual-confident-concept_53876-137678.jpg?size=626&ext=jpg&ga=GA1.2.1179171109.1649002917",
+      "email": "daisybenjamin@cujo.com",
+      "phone": "+1 (813) 588-3036",
+      "review": "5"
+    }
+  ]
