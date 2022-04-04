@@ -1,6 +1,6 @@
 # Scooty Bike Discover
 
-Live Website LinK: [Click Here](https://scooty-bike-discover.netlify.app/)
+Live Website Link: [Click Here](https://scooty-bike-discover.netlify.app/)
 
 -  This web site provides details for Scooty Lover.
 
