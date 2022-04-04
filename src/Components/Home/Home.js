@@ -6,7 +6,7 @@ import CustomarReview from "../CustomarReview/CustomarReview";
 import { ArrowRightIcon } from "@heroicons/react/solid";
 
 const Home = () => {
-	const [reviews, setReviews] = useReview([]);
+	const [reviews] = useReview([]);
 	const navigate = useNavigate();
 	return (
 		<section>
