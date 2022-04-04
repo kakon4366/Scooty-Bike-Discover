@@ -6,9 +6,12 @@ const PieChartComp = () => {
 	const [data] = useChartData([]);
 	const { investment, revenue } = data;
 	return (
-		<div>
-			<h2>Pie Chart with Investment VS Revenue</h2>
-			<PieChart width={400} height={400}>
+		<div className="mx-auto">
+			<h2 className="text-2xl text-center mb-6 text-[#4F71D0]">
+				Investment VS Revenue
+			</h2>
+
+			<PieChart width={250} height={250}>
 				<Pie
 					data={data}
 					dataKey="investment"

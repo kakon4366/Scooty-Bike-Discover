@@ -6,13 +6,14 @@ import PieChartComp from "../PieChartComp/PieChartComp";
 
 const Dashboard = () => {
 	return (
-		<div>
-			<h1>This is Dashboard page</h1>
-			<LineChartComp></LineChartComp>
-			<AreaChartComp></AreaChartComp>
-			<BarChartComp></BarChartComp>
-			<PieChartComp></PieChartComp>
-		</div>
+		<section className="container mx-auto py-24">
+			<div className="grid grid-cols-1 lg:grid-cols-2 gap-20 mx-auto">
+				<LineChartComp></LineChartComp>
+				<AreaChartComp></AreaChartComp>
+				<BarChartComp></BarChartComp>
+				<PieChartComp></PieChartComp>
+			</div>
+		</section>
 	);
 };
 

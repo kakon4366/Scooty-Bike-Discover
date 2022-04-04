@@ -6,7 +6,6 @@ import {
 	YAxis,
 	CartesianGrid,
 	Tooltip,
-	ResponsiveContainer,
 } from "recharts";
 import useChartData from "../../Hooks/useChartData";
 
@@ -14,11 +13,14 @@ const AreaChartComp = () => {
 	const [data] = useChartData([]);
 	const { month, investment, revenue } = data;
 	return (
-		<div>
-			<h2>Investment VS Revenue</h2>
+		<div className="mx-auto">
+			<h2 className="text-2xl text-center mb-6 text-[#4F71D0]">
+				Investment VS Revenue
+			</h2>
+
 			<AreaChart
 				width={500}
-				height={400}
+				height={250}
 				data={data}
 				margin={{
 					top: 10,

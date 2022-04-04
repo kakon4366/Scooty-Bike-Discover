@@ -10,15 +10,17 @@ import {
 import useChartData from "../../Hooks/useChartData";
 
 const LineChartComp = () => {
-	// const data = [{ name: "Page A", uv: 400, pv: 2400, amt: 2400 }];
-	const [data, setData] = useChartData([]);
+	const [data] = useChartData([]);
 	const { month, sell } = data;
 	return (
-		<div>
-			<h2 className="text-2xl text-center">Month Wise Sell</h2>
+		<div className="mx-auto">
+			<h2 className="text-2xl text-center mb-6 text-[#4F71D0]">
+				Month Wise Sell
+			</h2>
+
 			<LineChart
-				width={600}
-				height={300}
+				width={500}
+				height={250}
 				data={data}
 				margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
 			>

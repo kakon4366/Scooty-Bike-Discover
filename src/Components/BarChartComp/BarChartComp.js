@@ -35,11 +35,13 @@ const BarChartComp = () => {
 	const [data] = useChartData([]);
 	const { month, investment, revenue } = data;
 	return (
-		<div>
-			<h2>Bar Chart Investment VS Revenue</h2>
+		<div className="mx-auto">
+			<h2 className="text-2xl text-center mb-6 text-[#4F71D0]">
+				Investment VS Revenue
+			</h2>
 			<BarChart
 				width={500}
-				height={300}
+				height={250}
 				data={data}
 				margin={{
 					top: 5,
