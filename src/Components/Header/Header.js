@@ -35,9 +35,6 @@ const Header = () => {
 					<CustomLink className="text-2xl mr-8" to="/blog">
 						Blog
 					</CustomLink>
-					<CustomLink className="text-2xl mr-8" to="/contact">
-						Contact Us
-					</CustomLink>
 				</nav>
 			</div>
 		</header>

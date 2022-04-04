@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Blog from "./Components/Blog/Blog";
-import ContactUs from "./Components/ContactUs/ContactUs";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
@@ -19,7 +18,6 @@ function App() {
 				<Route path="/review" element={<Review />}></Route>
 				<Route path="/dashboard" element={<Dashboard />}></Route>
 				<Route path="/blog" element={<Blog />}></Route>
-				<Route path="/contact-us" element={<ContactUs />}></Route>
 				<Route path="*" element={<NotFound404 />}></Route>
 			</Routes>
 			<Footer></Footer>
