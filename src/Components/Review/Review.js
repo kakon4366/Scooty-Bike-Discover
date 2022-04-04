@@ -3,7 +3,7 @@ import useReview from "../../Hooks/useReview";
 import CustomarReview from "../CustomarReview/CustomarReview";
 
 const Review = () => {
-	const [reviews, setReviews] = useReview([]);
+	const [reviews] = useReview([]);
 
 	return (
 		<div className="container mx-auto py-20">

@@ -17,7 +17,7 @@ const Header = () => {
 				</div>
 				<nav
 					className={`border-t-2 absolute md:static md:-translate-y-0 w-full transition-all left-0 bg-[#FFF8F3] text-center py-6 md:flex items-center justify-center ${
-						open ? " translate-y-0" : "-translate-y-64"
+						open ? " translate-y-0" : "-translate-y-72"
 					}`}
 				>
 					<CustomLink className="text-2xl mr-8" to="/">
@@ -31,6 +31,9 @@ const Header = () => {
 					</CustomLink>
 					<CustomLink className="text-2xl mr-8" to="/dashboard">
 						Dashboard
+					</CustomLink>
+					<CustomLink className="text-2xl mr-8" to="/blog">
+						Blog
 					</CustomLink>
 					<CustomLink className="text-2xl mr-8" to="/contact">
 						Contact Us
